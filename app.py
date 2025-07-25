@@ -40,4 +40,4 @@ def add_time(start,duration,start_day=None):
     elif days_later>1:
         new_time+=f' ({days_later} days later)'
     return new_time
-print(add_time('3:30 PM', '2:12'))
+add_time('3:30 PM', '2:12')
